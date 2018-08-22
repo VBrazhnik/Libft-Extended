@@ -14,7 +14,8 @@ NAME = libft.a
 CC = gcc
 FLAGS = -Wall -Werror -Wextra -O3 -c
 INCLUDES = -I$(HEADERS_DIRECTORY)
-HEADERS_LIST = libft.h
+HEADERS_LIST = libft.h\
+	get_next_line.h
 HEADERS_DIRECTORY = ./includes/
 HEADERS = $(addprefix $(HEADERS_DIRECTORY), $(HEADERS_LIST))
 SOURCES_DIRECTORY = ./sources/
@@ -87,7 +88,8 @@ SOURCES_LIST = ft_memset.c\
 	ft_strupr.c\
 	ft_strrev.c\
 	ft_strchrs.c\
-	ft_strsubchr.c
+	ft_strsubchr.c\
+	get_next_line.c
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))
 OBJECTS_DIRECTORY = objects/
 OBJECTS_LIST = $(patsubst %.c, %.o, $(SOURCES_LIST))
