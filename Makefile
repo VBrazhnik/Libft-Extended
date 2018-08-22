@@ -15,9 +15,9 @@ CC = gcc
 FLAGS = -Wall -Werror -Wextra -O3 -c
 INCLUDES = -I$(HEADERS_DIRECTORY)
 HEADERS_LIST = libft.h
-HEADERS_DIRECTORY = ./
+HEADERS_DIRECTORY = ./includes/
 HEADERS = $(addprefix $(HEADERS_DIRECTORY), $(HEADERS_LIST))
-SOURCES_DIRECTORY = ./
+SOURCES_DIRECTORY = ./sources/
 SOURCES_LIST = ft_memset.c\
 	ft_bzero.c\
 	ft_memcpy.c\
