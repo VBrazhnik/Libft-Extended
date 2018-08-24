@@ -29,6 +29,12 @@
 # define FT_INT_MAX		((int)(FT_UINT_MAX >> 1))
 # define FT_INT_MIN		((int)(~FT_INT_MAX))
 
+typedef enum
+{
+	false,
+	true
+}	t_bool;
+
 typedef struct		s_list
 {
 	void			*content;
@@ -182,5 +188,7 @@ double				ft_percent(int start, int end, int current);
 int					ft_arrindex(int x, int y, int width);
 
 int					ft_isdigit_base(char c, int base);
+
+t_bool				ft_isprefix(const char *str, int base);
 
 #endif
