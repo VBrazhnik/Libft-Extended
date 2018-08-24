@@ -93,7 +93,8 @@ SOURCES_LIST = ft_memset.c\
 	ft_percent.c\
 	ft_arrindex.c\
 	ft_isdigit_base.c\
-	ft_isprefix.c
+	ft_isprefix.c\
+	ft_isnum.c
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))
 OBJECTS_DIRECTORY = objects/
 OBJECTS_LIST = $(patsubst %.c, %.o, $(SOURCES_LIST))

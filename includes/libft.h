@@ -191,4 +191,6 @@ int					ft_isdigit_base(char c, int base);
 
 t_bool				ft_isprefix(const char *str, int base);
 
+t_bool				ft_isnum(char *str, int base);
+
 #endif
