@@ -177,4 +177,8 @@ char				*ft_strchrs(const char *s, int c);
 
 char				*ft_strsubchr(const char *s, char c);
 
+double				ft_percent(int start, int end, int current);
+
+int					ft_arrindex(int x, int y, int width);
+
 #endif

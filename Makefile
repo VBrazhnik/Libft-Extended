@@ -89,7 +89,9 @@ SOURCES_LIST = ft_memset.c\
 	ft_strrev.c\
 	ft_strchrs.c\
 	ft_strsubchr.c\
-	get_next_line.c
+	get_next_line.c\
+	ft_percent.c\
+	ft_arrindex.c
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))
 OBJECTS_DIRECTORY = objects/
 OBJECTS_LIST = $(patsubst %.c, %.o, $(SOURCES_LIST))
