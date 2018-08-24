@@ -181,4 +181,6 @@ double				ft_percent(int start, int end, int current);
 
 int					ft_arrindex(int x, int y, int width);
 
+int					ft_isdigit_base(char c, int base);
+
 #endif
