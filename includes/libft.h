@@ -200,4 +200,8 @@ int					ft_unsignedlen(uintmax_t number, int base);
 
 t_bool				ft_isint(const char *str);
 
+void				ft_strsplit_free(char ***strsplit);
+
+size_t				ft_strsplit_len(char **strsplit);
+
 #endif
