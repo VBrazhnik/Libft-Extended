@@ -198,7 +198,7 @@ int					ft_signedlen(intmax_t number, int base);
 
 int					ft_unsignedlen(uintmax_t number, int base);
 
-t_bool				ft_isint(const char *str);
+t_bool				ft_isint(const char *str, t_bool strict);
 
 void				ft_strsplit_free(char ***strsplit);
 

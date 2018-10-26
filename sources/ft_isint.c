@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-t_bool	ft_isint(const char *str)
+t_bool	ft_isint(const char *str, t_bool strict)
 {
 	unsigned int	result;
 	unsigned int	border;
@@ -24,7 +24,7 @@ t_bool	ft_isint(const char *str)
 	digits = 0;
 	border = (unsigned int)(FT_INT_MAX / 10);
 	i = 0;
-	while (ft_isspace(str[i]))
+	while (!strict && ft_isspace(str[i]))
 		i++;
 	sign = (str[i] == '-') ? -1 : 1;
 	if (str[i] == '-' || str[i] == '+')
