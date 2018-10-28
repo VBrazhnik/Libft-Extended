@@ -16,6 +16,7 @@
 
 # include <string.h>
 # include <inttypes.h>
+# include <stdlib.h>
 
 # define FT_MIN(A, B) (((A) < (B)) ? (A) : (B))
 # define FT_MAX(A, B) (((A) > (B)) ? (A) : (B))

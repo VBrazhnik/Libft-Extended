@@ -13,7 +13,6 @@
 #include "get_next_line.h"
 #include "libft.h"
 #include <unistd.h>
-#include <stdlib.h>
 
 static t_file	*new_file(const int fd)
 {
