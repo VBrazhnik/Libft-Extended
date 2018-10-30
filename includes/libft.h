@@ -195,9 +195,9 @@ t_bool				ft_isprefix(const char *str, int base);
 
 t_bool				ft_isnum(char *str, int base);
 
-int					ft_signedlen(intmax_t number, int base);
+size_t				ft_signedlen(intmax_t number, unsigned int base);
 
-int					ft_unsignedlen(uintmax_t number, int base);
+size_t				ft_unsignedlen(uintmax_t number, unsigned int base);
 
 t_bool				ft_isint(const char *str, t_bool strict);
 

@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-int	ft_unsignedlen(uintmax_t number, int base)
+size_t	ft_unsignedlen(uintmax_t number, unsigned int base)
 {
-	int size;
+	size_t	size;
 
 	size = 1;
 	while ((number /= base))
