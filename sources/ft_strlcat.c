@@ -19,7 +19,7 @@ size_t		ft_strlcat(char *dst, const char *src, size_t dstsize)
 
 	dst_len = ft_strlen(dst);
 	result_len = FT_MIN(dstsize, dst_len) + ft_strlen(src);
-	if (!(dstsize <= dst_len))
+	if (dstsize > dst_len)
 	{
 		dst += dst_len;
 		dstsize -= dst_len;

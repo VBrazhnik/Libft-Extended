@@ -31,13 +31,13 @@ char			*ft_itoa(int n)
 
 	minus = (n < 0) ? 1 : 0;
 	numlen = ft_numlen(n, minus);
-	if ((str = ft_strnew(numlen)))
+	if ((str = ft_strnew((size_t)numlen)))
 	{
 		str[numlen--] = '\0';
 		while (numlen >= minus)
 		{
 			digit = n % 10;
-			str[numlen--] = FT_ABS(digit) + '0';
+			str[numlen--] = (char)(FT_ABS(digit) + '0');
 			n /= 10;
 		}
 		if (minus)

@@ -21,7 +21,7 @@ char	*ft_strupr(char *s)
 		i = 0;
 		while (s[i])
 		{
-			s[i] = ft_toupper(s[i]);
+			s[i] = (char)ft_toupper(s[i]);
 			i++;
 		}
 	}

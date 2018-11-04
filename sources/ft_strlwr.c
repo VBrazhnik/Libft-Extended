@@ -21,7 +21,7 @@ char	*ft_strlwr(char *s)
 		i = 0;
 		while (s[i])
 		{
-			s[i] = ft_tolower(s[i]);
+			s[i] = (char)ft_tolower(s[i]);
 			i++;
 		}
 	}
