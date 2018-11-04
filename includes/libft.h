@@ -31,6 +31,10 @@
 # define FT_INT_MAX		((int)(FT_UINT_MAX >> 1))
 # define FT_INT_MIN		((int)(~FT_INT_MAX))
 
+# define FT_UCHAR_MAX	((unsigned char)(~0L))
+# define FT_CHAR_MAX	((char)(FT_UCHAR_MAX >> 1))
+# define FT_CHAR_MIN	((char)(~FT_CHAR_MAX))
+
 typedef enum
 {
 	false,
