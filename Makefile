@@ -102,7 +102,6 @@ SOURCES_LIST = \
 	ft_isint.c\
 	ft_strsplit_free.c\
 	ft_strsplit_len.c\
-	ft_wchar_size.c\
 	ft_wcslen.c\
 	ft_pow_int.c
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))

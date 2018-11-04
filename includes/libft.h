@@ -205,8 +205,6 @@ void				ft_strsplit_free(char ***strsplit);
 
 size_t				ft_strsplit_len(char **strsplit);
 
-int					ft_wchar_size(wchar_t c);
-
 size_t				ft_wcslen(const wchar_t *s);
 
 intmax_t			ft_pow_int(intmax_t num, int power);
