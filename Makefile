@@ -103,7 +103,8 @@ SOURCES_LIST = \
 	ft_strsplit_free.c\
 	ft_strsplit_len.c\
 	ft_wcslen.c\
-	ft_pow_int.c
+	ft_pow_int.c\
+	ft_atoi32.c
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))
 OBJECTS_DIRECTORY = objects/
 OBJECTS_LIST = $(patsubst %.c, %.o, $(SOURCES_LIST))

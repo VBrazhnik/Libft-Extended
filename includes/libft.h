@@ -213,4 +213,6 @@ size_t				ft_wcslen(const wchar_t *s);
 
 intmax_t			ft_pow_int(intmax_t num, int power);
 
+int32_t				ft_atoi32(const char *str);
+
 #endif
